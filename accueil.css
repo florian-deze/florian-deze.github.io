@@ -1,3 +1,7 @@
+.body{
+ 	background-image:url(fond1.png); 
+}
+
 .demo-card-wide.mdl-card {
   width: 512px;
 }
