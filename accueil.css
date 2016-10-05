@@ -13,7 +13,7 @@ body{
 .demo-card-wide > .mdl-card__title {
   color: #fff;
   height: 176px;
-  background: url('autre.png') center / cover;
+  background: url('carte.png') center / cover;
 }
 .demo-card-wide > .mdl-card__menu {
   color: #fff;
