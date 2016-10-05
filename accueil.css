@@ -16,7 +16,7 @@ body{
   background: url('carte.jpg') center / cover;
 }
 .demo-card-wide > .mdl-card__menu {
-  color: #aaa;
+  color: #fff;
 }
 
 .mdl-card {
