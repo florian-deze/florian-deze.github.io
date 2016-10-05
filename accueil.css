@@ -1,5 +1,6 @@
-.body{
- 	background-image:url(fond1.jpg); 
+body{
+ 	background-image:url(fond1.jpg);
+  background-repeat:no-repeat;
 }
 
 .demo-card-wide.mdl-card {
