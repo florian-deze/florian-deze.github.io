@@ -1,45 +1,701 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
+
 <head>
-<link rel="stylesheet" type="text/css" href="accueil.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Florian Dezé">
+
+
+<title>Florian Dezé | Official Home Page</title>
+<meta name="description" content="Hello! Welcome to Florian's home page. You can find my projects and skills.">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css" type="text/css"/>
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css"/>
+<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" type="text/css"/>
+
+<style media="screen" type="text/css">
+p  {
+    color: black;
+    font-family: Helvetica;
+    font-size: 120%;
+}
+
+p.decal_pos {
+	margin-left: 20px
+}
+
+.intro-header {
+    width:100%;
+    margin-top: -25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #ffffff;
+    background: url("assets/images/venise.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.image_in_body {
+	width:100%;
+    margin-top: -25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #ffffff;
+    background: url("assets/images/polytech_lille.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.find_me {
+    width:100%;
+
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #ffffff;
+    background: url("assets/images/vol_suede.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.intro-message {
+    margin-top: -50px;
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+
+.intro-message>h1 {
+    margin: 0;
+    font-size: 5em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message>h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media ( max-width : 767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+    .intro-message>h1 {
+        font-size: 3em;
+    }
+    ul.intro-social-buttons>li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    ul.intro-social-buttons>li:last-child {
+        margin-bottom: 0;
+    }
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.content-section-b {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 50px 0;
+}
+</style>
+
 </head>
+
+
 <body>
-	<!-- menu -->
-<div>
-<ul>
-  <li><a class="active" href="index.html">Home</a></li>
-  <li><a href="news.html">News</a></li>
-  <li class="dropdown">
-    <a href="#" class="dropbtn">Reseau Sociaux</a>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+				</button>
+                <p class="navbar-brand">florian.deze</p>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+                    <li><a href="#HOME">Home</a></li>
+                    <li><a href="#ABOUT">About</a></li>
+                    <li><a href="#SKILLS">Skills</a></li>
+					<li><a href="projects.html">Project</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                    <li><a href="#CONTACT">Contact</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+
+<div itemscope itemtype="http://data-vocabulary.org/Person">
+
+    <div class="intro-header" id="HOME">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1><span itemprop="name">Florian DEZE</span>, <span itemprop="honorificSuffix">Engineering student</span></h1>
+                        <h3><span itemprop="jobTitle">Software engineering and Statistics</span> </br>
+                            <span itemprop="workLocation" itemscope itemtype="http://schema.org/Place">
+                                <a href="http://www.univ-lille1.fr"    itemprop="url" style="color: #FFFFFF"> <span itemprop="name">University of Lille&nbsp;1</span></a>
+                            </span>
+                            <br />
+                            <span itemprop="workLocation" itemscope itemtype="http://schema.org/Place">
+                                <a href="http://www.polytech-lille.fr/english-p4664.html#.WUuVhbHpOHo" itemprop="url" style="color: #FFFFFF"> <span itemprop="name">Polytech'Lille</span></a>
+                            </span></br>
+                            <span itemprop="jobTitle">Looking for an internship in the Machine learning field</span>
+
+                        </h3>
+                        <!--<span itemprop="affiliation">Polytech'Lille</span></h3>-->
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li><a href="http://www.linkedin.com/in/floriandeze" class="btn btn-default btn-lg"><i
+                                    class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">Linkedin</span></a></li>
+                            <li><a href="https://github.com/florian-deze" class="btn btn-default btn-lg"><i class="fa fa-github-square fa-fw"></i>
+                                    <span class="network-name">Github</span></a></li>
+                            <li><a href="https://www.kaggle.com/flodeze" class="btn btn-default btn-lg">
+                            		<span class="network-name">Kaggle</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+
     </div>
-  </li>
-  <li><a href="about.html">About</a></li>
-</ul>
+    <!-- /.intro-header -->
+    
+    <!-- ***************************start of ABOUT SECTION *********************** -->
+<section id="ABOUT" class="about-section section-padding">
+
+	<div class="row">
+		<h2><center><font color="CornflowerBlue">About me</font></center></h2>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<h4><center><font color="FireBrick">Current Goal</font></center></h4>
+		</div>
+		<div class="col-md-6">
+			<h4><center><font color="FireBrick">Downloading files</font></center></h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+		</br>
+		<p class="decal_pos">I'm looking for an internship of 6 months in Machine learning, in a foreign country in a company with good skills in english. The countries I target are England and Italy but I'm open mind and accept any others eventualities.
+		I'm currently learning more detailed topics and methods about machine learning and IA at the University of Luxembourg, during a semester in a <a href="https://wwwen.uni.lu/formations/fstc/master_in_information_and_computer_sciences_academique/profiles">Master of computer science</a>.
+		You can find some projects or part of projects for this semester. You can also find a part of a Kaggle Project which end in february 2018.
+		</p>
+		</div>
+		<div class="col-md-6">
+			</br>
+			<div class="row">
+			<center>
+				<a href="/assets/public_files/DEZE_Florian_CV_fr.pdf" class="btn btn-default btn-lg">French CV</a>
+			</center>
+			</div>
+			<div class="row">
+			<center>
+				<a href="/assets/public_files/DEZE_Florian_CV_en.pdf" class="btn btn-default btn-lg">English CV</a>
+			</center>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-md-6">
+			<h4><center><font color="FireBrick">Current Situation</font></center></h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+		</br>
+			<p class="decal_pos">I am currently in the fourth year of higher education at Polytech Lille, graduate school of engineering which belongs to Lille 1 University – Science and Technology. My field is software engineering and statistics which trains multi-skilled engineers in the processing of information, both in its statistical and computational forms. I am very interested in courses such as machine learning. It is difficult to find this kind of courses in a university in France so I'm studying at the University of Luxembourg for one semester in order to help me in the concretization of my career.</p>
+		</div>
+		<div class="col-md-6">
+		<center>
+			<img src="assets/images/polytech_lille.jpg" alt="Responsive image" class="img-rounded" height=250px width=400px>
+		</center>
+		</div>
+	</div>
+</section>
+    <!-- ***************************end of ABOUT SECTION ***********************-->   
+    
+    <!-- start Skills section-->
+
+<section id="SKILLS" class="about-section section-padding">
+
+	<div class="row">
+		<div class="col-md-12">
+			<h2><center><font color="CornflowerBlue">Skills</font></center></h2>
+		</div>
+	</div>
+<!-- begining of the first line -->
+<!-- TITLE -->
+	<div class="row">
+		<div class="col-md-6">
+			<h4><center><font color="FireBrick">Functional programming</font></center><h4>
+		</div>
+		<div class="col-md-6">
+			<h4><center><font color="FireBrick">Other programming languages</font></center><h4>
+		</div>
+	</div>
+<!-- ***************************FUNCTIONAL PROGRAMMING ********************************-->
+	<div class="row">
+		<div class="col-md-6">
+		<table class="table table-striped">
+    	<thead>
+      	<tr class="active">
+      		<th></th>
+      		<th>Language</th>
+        	<th>Learning mode</th>
+        	<th>Level</th>
+        	<th>Comments</th>
+      	</tr>
+    	</thead>
+    	<tbody>
+      	<tr>
+        	<th></th>
+        	<td>Spark</td>
+        	<td>By myself</td>
+        	<td>7/10</td>
+        	<td>see in section <ins><a href="projects.html">project</a></ins></td>
+      	</tr>
+      	<tr>
+        	<th></th>
+        	<td>Cassandra</td>
+        	<td>By myself</td>
+        	<td>6/10</td>
+        	<td>see in section <ins><a href="projects.html">project</a></ins></td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>Ocaml</td>
+        	<td>courses in preparatory class</td>
+        	<td>8/10</td>
+    		<td>No project can be found</br> none of them was saved</td>
+      	</tr>
+    	</tbody>
+  		</table>
+  		</div>
+  		
+<!-- *************  OTHER LANGUAGES ******************-->
+		<div class="col-md-6">
+		<table class="table table-striped">
+    	<thead>
+      	<tr class="active">
+      		<th></th>
+      		<th>Language</th>
+        	<th>Learning mode</th>
+        	<th>Level</th>
+        	<th>Comments</th>
+      	</tr>
+    	</thead>
+    	<tbody>
+      	<tr>
+        	<th></th>
+        	<td>C</td>
+        	<td>courses in engineering class</td>
+        	<td>8/10</td>
+        	<td>see in section <ins><a href="projects.html">project</a></ins></td>
+      	</tr>
+      	<tr>
+        	<th></th>
+        	<td>Java</td>
+        	<td>courses in engineering class</td>
+        	<td>8/10</td>
+        	<td>see in section <ins><a href="projects.html">project</a></ins></td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>Python</td>
+        	<td>By myself</td>
+        	<td>8/10</td>
+    		<td><ins><a href="moreDetailPython.html">more details about libraries</br> and associative frameworks</a><ins></td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>Swift 3 and 4</td>
+        	<td>Internship at Altran</td>
+        	<td>9/10</td>
+    		<td>see in section <ins><a href="projects.html">project</a></ins></td>
+      	</tr>
+    	</tbody>
+  		</table>
+		</div>
+	</div>
+<!-- End of the first line-->	
+<!--begining of the second line -->
+<!-- TITLE -->
+	<div class="row">
+		<div class="col-md-6">
+			<h4><center><font color="FireBrick">Softwares and framework</font></center></h4>
+		</div>
+		<div class="col-md-6">
+			<h4><center><font color="FireBrick">Web languages</font></center></h4>
+		</div>
+	</div>
+	
+	<div class="row">
+<!-- **********************LOGICIEL***************************** -->
+	<div class="col-md-6">
+		<table class="table table-striped">
+    	<thead>
+      	<tr class= "active">
+      		<th></th>
+      		<th>Logiciels</th>
+        	<th>Learning mode</th>
+        	<th>Level</th>
+        	<th>Comments</th>
+      	</tr>
+    	</thead>
+    	<tbody>
+      	<tr>
+        	<th></th>
+        	<td>Xcode</td>
+        	<td>Internship at Altran</td>
+        	<td>9/10</td>
+        	<td>see in section <ins><a href="projects.html">project</a></ins></td>
+      	</tr>
+      	<tr>
+        	<th></th>
+        	<td>Git</td>
+        	<td>By myself</td>
+        	<td>8/10</td>
+        	<td>see in my <ins><a href="https://github.com/florian-deze">github page</a></ins></td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>Eclipse</td>
+        	<td>courses in engineering class</td>
+        	<td>8/10</td>
+    		<td>many java project were realized</br> with Eclipse, except one with Idea</td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>Slack</td>
+        	<td>By myself</td>
+        	<td>8/10</td>
+    		<td>nothing to show</td>
+      	</tr>
+    	</tbody>
+  		</table>
+  	</div>
+<!-- **********************WEB LANGUAGE***************************** -->
+	<div class="col-md-6">
+		<table class="table table-striped">
+    	<thead>
+      	<tr class= "active">
+      		<th></th>
+      		<th>Languages</th>
+        	<th>Learning mode</th>
+        	<th>Level</th>
+        	<th>Comments</th>
+      	</tr>
+    	</thead>
+    	<tbody>
+      	<tr>
+        	<th></th>
+        	<td>HTML</td>
+        	<td>By myself</td>
+        	<td>9/10</td>
+        	<td>see in section <ins><a href="projects.html">project</a></ins></td>
+      	</tr>
+      	<tr>
+        	<th></th>
+        	<td>JavaScript</td>
+        	<td>By myself</td>
+        	<td>8/10</td>
+        	<td>see in section <ins><a href="projects.html">project</a></ins></td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>PHP</td>
+        	<td>By myself</td>
+        	<td>7/10</td>
+    		<td>see in section <a href="projects.html"><ins>project</ins></a></td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>CSS</td>
+        	<td>By myself</td>
+        	<td>9/10</td>
+    		<td>this website is a example in itself</td>
+      	</tr>
+    	</tbody>
+  		</table>
+  	</div>
+	</div>
+<!-- end of the second line -->
+
+<!-- begin of the third line -->
+
+<!-- TITLE -->
+	<div class="row">
+		<div class="col-md-6">
+			<h4><center><font color="FireBrick">Request languages</font></center></h4>
+		</div>
+		<div class="col-md-6">
+			<h4><center><font color="FireBrick">Statistics (languages and softwares)</font></center></h4>
+		</div>
+	</div>
+	
+<!-- Laguage de requête -->
+
+	<div class="row">
+		<div class="col-md-6">
+		<table class="table table-striped">
+    	<thead>
+      	<tr class="active">
+      		<th></th>
+      		<th>Languages</th>
+        	<th>Learning mode</th>
+        	<th>Level</th>
+        	<th>Comments</th>
+      	</tr>
+    	</thead>
+    	<tbody>
+      	<tr>
+        	<th></th>
+        	<td>SQL</td>
+        	<td>courses at Polytech Lille</td>
+        	<td>7/10</td>
+        	<td>see in section <ins><a href="projects.html">project</a></ins></td>
+      	</tr>
+      	<tr>
+        	<th></th>
+        	<td>SPARQL</td>
+        	<td>courses at Polytech Lille</td>
+        	<td>8/10</td>
+        	<td>No project can be found</td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>OWL</td>
+        	<td>courses at Polytech Lille</td>
+        	<td>8/10</td>
+    		<td>No project can be found</td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>XQuery</td>
+        	<td>courses at Polytech Lille</td>
+        	<td>8/10</td>
+    		<td>No project can be found</td>
+      	</tr>
+    	</tbody>
+  		</table>
+  		</div>
+  		
+<!-- *************  Statistique ******************-->
+		<div class="col-md-6">
+		<table class="table table-striped">
+    	<thead>
+      	<tr class="active">
+      		<th></th>
+      		<th>Languages</br>softwares</th>
+        	<th>Learning mode</th>
+        	<th>Level</th>
+        	<th>Comments</th>
+      	</tr>
+    	</thead>
+    	<tbody>
+      	<tr>
+        	<th></th>
+        	<td>R</td>
+        	<td>courses in engineering class</td>
+        	<td>8/10</td>
+        	<td>see in section <ins><a href="projects.html">project</a></ins></td>
+      	</tr>
+      	<tr>
+        	<th></th>
+        	<td>SAS</td>
+        	<td>courses in engineering class</td>
+        	<td>8/10</td>
+        	<td>no project can be found</td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>SPAD</td>
+        	<td>courses in engineering class</td>
+        	<td>8/10</td>
+    		<td>no project can be found</td>
+      	</tr>
+    	</tbody>
+  		</table>
+		</div>
+	</div>
+<!-- end statistics softwares -->
+<!-- begin statistics knowledge -->
+<!-- TITLE -->
+	<div class="row">
+		<div class="col-md-6">
+			<h4><center><font color="FireBrick">Statistics skills</font></center></h4>
+		</div>
+		<div class="col-md-6">
+			<h4><center><font color="FireBrick">other skills of statistics and probabilistics</font></center></h4>
+		</div>
+	</div>
+<!-- *******************end Statistics Skills section********************** -->
+	<div class="row">
+		<div class="col-md-6">
+		<table class="table table-striped">
+    	<thead>
+      	<tr class="active">
+      		<th></th>
+      		<th>Skills</th>
+        	<th>Learning mode</th>
+        	<th>Level</th>
+        	<th>Comments</th>
+      	</tr>
+    	</thead>
+    	<tbody>
+      	<tr>
+        	<th></th>
+        	<td>Statistical inference</td>
+        	<td>courses at Polytech Lille</td>
+        	<td>9/10</td>
+        	<td>no project associated</ins></td>
+      	</tr>
+      	<tr>
+        	<th></th>
+        	<td>Linear regression</td>
+        	<td>courses at Polytech Lille</td>
+        	<td>9/10</td>
+        	<td>No project can be found</td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>Logit regression</td>
+        	<td>courses at Polytech Lille</td>
+        	<td>8/10</td>
+    		<td>No project can be found</td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>Linear discriminant analysis</td>
+        	<td>courses at Polytech Lille</td>
+        	<td>8/10</td>
+    		<td>No project can be found</td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>Probabilistic Linear Discriminant Analysis</td>
+        	<td>courses at Polytech Lille</td>
+        	<td>8/10</td>
+    		<td>No project can be found</td>
+      	</tr>
+    	</tbody>
+  		</table>
+  		</div>
+  		
+<!-- *************  Statistique competence ******************-->
+	<div class="col-md-6">
+		<table class="table table-striped">
+    	<thead>
+      	<tr class="active">
+      		<th></th>
+      		<th>Skills</th>
+        	<th>Learning mode</th>
+        	<th>Level</th>
+        	<th>Comments</th>
+      	</tr>
+    	</thead>
+    	<tbody>
+      	<tr>
+        	<th></th>
+        	<td>R</td>
+        	<td>courses in engineering class</td>
+        	<td>8/10</td>
+        	<td>see in section <ins><a href="projects.html">project</a></ins></td>
+      	</tr>
+      	<tr>
+        	<th></th>
+        	<td>SAS</td>
+        	<td>courses in engineering class</td>
+        	<td>8/10</td>
+        	<td>no project can be found</td>
+      	</tr>
+      	<tr>
+      	  	<th></th>
+        	<td>SPAD</td>
+        	<td>courses in engineering class</td>
+        	<td>8/10</td>
+    		<td>no project can be found</td>
+      	</tr>
+    	</tbody>
+  		</table>
+		</div>
+	</div>
+</section>
+<!-- *******************start CONTACTS section ***************** -->
+
+<section id="CONTACT" class="about-section section-padding">
+
+</section>
+<!-- *******************end CONTACTS section ***************** -->
+	<div class="row">
+		<div class="col-md-12">
+			<h2><center><font color="CornflowerBlue">Contact</font></center></h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-5">
+			<h2 class="decal_pos">Emails Address</h2>
+			<p class="decal_pos"><a href="mailto:florian.deze@gmail.com">florian.deze@gmail.com</a></p>
+			<p class="decal_pos"><a href="mailto:florian.deze@polytech-lille.net">florian.deze@polytech-lille.net</a></p>
+		</div>
+		<div class="col-md-5">
+			<h2>Work Address</h2>
+			<p class="decal_pos">Polytech Lille</br>Avenue Paul Langevin</br>59655 Villeneuve d Ascq cedex</br>France</p>
+		</div>
+		<div class="col-md-2">
+			<img src="assets/images/florian.jpg" alt="Responsive image" class="img-rounded" heigth=160px width=180px>
+		</div>
+	</div>
+<!-- *******************start find me section******************* -->
+<div class="find_me">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <h2>Find me</h2>
+            </div>
+            <div class="col-lg-7">
+                <ul class="list-inline banner-social-buttons">
+                    <li><a href="http://www.linkedin.com/in/floriandeze" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i>
+                            <span class="network-name">Linkedin</span></a></li>
+                    <li><a href="https://github.com/florian-deze" class="btn btn-default btn-lg"><i class="fa fa-github-square fa-fw"></i> <span
+                            class="network-name">Github</span></a></li>
+                    <li><a href="https://www.kaggle.com/flodeze" class="btn btn-default btn-lg"><span
+                            class="network-name">Kaggle</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
 </div>
-<!-- carte accueil-->
-<div>
-<center>
-<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__title">
-	<h2 class="mdl-card__title-text">Bienvenu<p></p></h2>
-    <h2 class="mdl-card__title-text"><i>Welcome</i></h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-    Ceci est un site personel regroupant mes liens vers mes reseaux sociaux et projets
-  </div>
-  <div class="mdl-card__supporting-text">
-    <i>This personal website contains links for my social networks and projects</i>
-  </div>
-</div>
-</center>
-</div>
-<div>
-	<video src="nuitdelinfo.mp4" controls>
-		Votre navigateur n'est pas compatible avec le HTML 5, désolé.
-	</video>
-</div>
+<!-- *******************end find me section********************* -->
+
 </body>
-</html>
